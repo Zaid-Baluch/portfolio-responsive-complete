@@ -55,20 +55,29 @@
           <h1 class="home__title">
             Hi,<br />I'am <span class="home__title-color">Zaid Baluch</span
             ><br />
-            Web Designer
+            Web Developer
           </h1>
 
-          <a href="#" class="button">Contact</a>
+          <a href="#contact" class="button">Contact</a>
         </div>
 
         <div class="home__social">
-          <a href="" class="home__social-icon"
+          <a
+            href="https://www.linkedin.com/in/zaidbaluch/"
+            class="home__social-icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="" class="home__social-icon"
-            ><i class="bx bxl-behance"></i
+          <a
+            href="https://www.instagram.com/zaidbaluc____/"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram"></i
           ></a>
-          <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
+          <a
+            href="https://github.com/Zaid-Baluch"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
         </div>
 
         <div class="home__img">
@@ -78,22 +87,22 @@
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
           >
-            <mask id="mask0" mask-type="alpha">
+            <!-- <mask id="mask0" mask-type="alpha">
               <path
                 d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
               />
-            </mask>
-            <g mask="url(#mask0)">
+            </mask> -->
+            <!-- <g mask="url(#mask0)">
               <path
                 d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-              />
-              <image
-                class="home__blob-img"
-                x="50"
-                y="60"
-                href="assets/img/perfil.jfif"
-              />
-            </g>
+              /> -->
+            <image
+              class="home__blob-img"
+              x="10"
+              y="10"
+              href="assets/img/perfil.jfif"
+              width="100%"
+            />
           </svg>
         </div>
       </section>
@@ -134,7 +143,10 @@
           <div>
             <h2 class="skills__subtitle">Profesional Skills</h2>
             <p class="skills__text">
-              A Passionate Developer Committed to Crafting Innovative Digital Solutions. With expertise in HTML, CSS and JavaScript, I strive to combine creativity and technology to deliver impactful results and solve real-world challenges."
+              A Passionate Developer Committed to Crafting Innovative Digital
+              Solutions. With expertise in HTML, CSS and JavaScript, I strive to
+              combine creativity and technology to deliver impactful results and
+              solve real-world challenges."
             </p>
             <div class="skills__data">
               <div class="skills__names">
@@ -223,20 +235,40 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <a href="mailto:zaidbeluch@gmail.com">zaidbeluch@gmail.com</a>
-            <input type="text " placeholder="" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+          <form
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            class="contact__form"
+          >
+            <a href="mailto:zaidbeluch@gmail.com" class="contact__email"
+              >zaidbeluch@gmail.com</a
+            >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact__input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact__input"
+              required
+            />
             <textarea
-              name=""
-              id=""
+              name="message"
+              id="message"
               cols="0"
               rows="10"
+              placeholder="Write your message"
               class="contact__input"
+              required
             ></textarea>
             <input
-              type="button"
-              value="Enviar"
+              type="submit"
+              value="Send Message"
               class="contact__button button"
             />
           </form>
@@ -248,9 +280,15 @@
     <footer class="footer">
       <p class="footer__title">Zaid</p>
       <div class="footer__social">
-        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.instagram.com/zaidbaluc____/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/zaidbaluch/" class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/Zaid-Baluch" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
       </div>
       <p class="footer__copy">&#169; zaidBaluch. All rigths reserved</p>
     </footer>
